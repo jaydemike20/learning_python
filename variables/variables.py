@@ -17,6 +17,9 @@ print(a, b, c) #display/output
 # camelCase
 myFirstName = 'Jayde Mike'
 # pascalCase
-MyMiddleName = ''
+MyMiddleName = 'Tapeseria'
+# snakecase
+my_last_name = 'Engracia'
+
 
 
