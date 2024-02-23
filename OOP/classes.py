@@ -1,28 +1,31 @@
-# OOP - Object Oriented Programming
-# it aims to implement real world objects / entities its atributes and behavior into Programming 
-# https://www.youtube.com/watch?v=Ej_02ICOIgs
+# OOP - Object-Oriented Programming (universal paradigm)
+# widely use paradigm , organizing codes
 
-# complex concepts
-# attributes - objects, method kinds, encapsulation, polymorphism, abstraction, abstract classes
+# 3 pillars - Encapsulation, Inheritance, Polymorphism
+
+# what is an object?
+# - is a unit of data (having one or more attributes)
+
+# https://www.youtube.com/watch?v=xEZkR9BFXOI 27:20
 
 
-# store management system
+myint = 5
+mystr = 'hello'
+mylist = ['a', 'b', 'c']
+mybool = True
+mynone = None
 
-class Item:
 
-    def __init__(self):
-        print("I am created")
+def myfunc():
+    print('hello')
 
-    def calculate_total_price(self, x, y):
-        return x * y
+print(type(myint))
+print(type(mystr))
+print(type(mylist))
+print(type(mybool))
+print(type(mynone))
 
-item1 = Item()
-item1.name = "Phone"
-item1.price = 100
-item1.quantity = 5
+this_type = type(mylist)
+print(type(this_type))
 
-item2 = Item()
-item2.name = "Laptop"
-item2.price = 1000
-item2.quantity = 5
-
+print; print
